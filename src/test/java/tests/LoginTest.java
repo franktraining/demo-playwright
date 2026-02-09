@@ -60,5 +60,12 @@ public class LoginTest extends BaseTest {
             "Should remain on login page with empty credentials");
     }
 
+         @Test(priority = 7, description = "Copy of test 7th Verify error message with empty credentials")
+    public void testEmptyCredentials6() {
+        loginPage.clickLogin();
+        // The form has HTML5 validation, so we check if we're still on login page
+        Assert.assertTrue(loginPage.isLoginPageDisplayed(),
+            "Should remain on login page with empty credentials");
+    
     
 }
