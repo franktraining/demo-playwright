@@ -60,5 +60,5 @@ public class LoginTest extends BaseTest {
             "Should remain on login page with empty credentials");
     }
 
-    
+  
 }
